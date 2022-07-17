@@ -8,12 +8,12 @@ module.exports = {
     extend: {
       fontFamily: {
         poppins: ['Poppins', "sans-serif"],
-        tangerine: ['Tangerine', 'cursive'],
+        cookie: ['Cookie', 'cursive'],
       },
     },
   },
   daisyui: {
-    themes: ["lofi", "halloween"],
+    themes: ["cupcake", "night"],
   },
   plugins: [require('daisyui')],
 }
