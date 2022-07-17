@@ -6,7 +6,7 @@ export default function Navbar({ children }) {
     const menuLinks = <>
         <li><Link href='/'>Home</Link></li>
         <li><Link href='/about'>About</Link></li>
-        <li><Link href='/blog'>Blogs</Link></li>
+        <li><Link href='/blogs'>Blogs</Link></li>
         <li><Link href='/contact'>Contact</Link></li>
         <li className='pl-4'>
             <label className="swap swap-rotate">
@@ -28,7 +28,7 @@ export default function Navbar({ children }) {
                 <div className="w-full navbar">
                     <div className="flex-none lg:hidden">
                         <label htmlFor="my-drawer-3" className="btn btn-square btn-ghost">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-6 h-6 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-6 h-6 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
                         </label>
                     </div>
                     <div className="flex-1 px-2 mx-2 font-cookie text-4xl"><Link href='/'>lnc</Link></div>
